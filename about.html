@@ -9,97 +9,96 @@
   </head>
   <body>
     <div class="container">
-        <header class="mobile">
-            <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
-            <label for="openSidebarMenu" class="sidebarIconToggle">
-              <span class="spinner diagonal part-1"></span>
-              <span class="spinner horizontal"></span>
-              <span class="spinner diagonal part-2"></span>
-            </label>
-            <div id="sidebarMenu">
-              <ul class="sidebarMenuInner">
+      <header class="mobile">
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <span class="spinner diagonal part-1"></span>
+          <span class="spinner horizontal"></span>
+          <span class="spinner diagonal part-2"></span>
+        </label>
+        <div id="sidebarMenu">
+          <ul class="sidebarMenuInner">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="about.html">About</a></li>
+            <li>
+              <a href="#">Program</a>
+            </li>
+            <li>
+              <a href="#">Join</a>
+            </li>
+            <li>
+              <a href="#">Sponsor</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">News</a>
+            </li>
+          </ul>
+          <div class="nav-social">
+            <ul>
+              <li class="social">
+                <a href="#">
+                  <img src="./assets/images/facebook.png" alt="facebook" />
+                </a>
+              </li>
+              <li class="social">
+                <a href="">
+                  <img src="./assets/images/twitter.png" alt="twitter" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="side-nav">
+            <ul>
+              <li class="nav-button">
+                <a href="">CC Campaign</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <header class="desktop">
+        <div class="top-nav-wrap">
+          <div class="top-nav">
+            <ul>
+              <li class="social">
+                <a href="#">
+                  <img src="./assets/images/facebook.png" alt="facebook" />
+                </a>
+              </li>
+              <li class="social">
+                <a href="">
+                  <img src="./assets/images/twitter.png" alt="twitter" />
+                </a>
+              </li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">My Page</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-nav-wrap">
+          <div class="main-nav">
+            <div class="main-logo">
+              <a href="index.html">
+                <img src="./assets/images/logo.jpeg" alt="logo" />
+              </a>
+            </div>
+            <nav class="menus">
+              <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li>
-                  <a href="#">Program</a>
-                </li>
-                <li>
-                  <a href="#">Join</a>
-                </li>
-                <li>
-                  <a href="#">Sponsor</a>
-                </li>
-                <li>
-                    <a href="#" target="_blank">News</a>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="#"> Program</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="#">News</a></li>
+                <li class="nav-button">
+                  <a href="">CC Campaign</a>
                 </li>
               </ul>
-              <div class="nav-social">
-                <ul>
-                  <li class="social">
-                    <a href="#">
-                      <img src="/assets/images/facebook.png" alt="" />
-                    </a>
-                  </li>
-                  <li class="social">
-                    <a href="">
-                      <img src="/assets/images/twitter.png" alt="twitter" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="side-nav">
-                <ul>
-                  <li class="nav-button">
-                    <a href="">CC Campaign</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </header>
-          <header class="desktop">
-            <div class="top-nav-wrap">
-              <div class="top-nav">
-                <ul>
-                  <li class="social">
-                    <a href="#">
-                      <img src="/assets/images/facebook.png" alt="" />
-                    </a>
-                  </li>
-                  <li class="social">
-                    <a href="">
-                      <img src="/assets/images/twitter.png" alt="twitter" />
-                    </a>
-                  </li>
-                  <li><a href="#">English</a></li>
-                  <li><a href="#">My Page</a></li>
-                  <li><a href="#">Logout</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="main-nav-wrap">
-              <div class="main-nav">
-                <div class="main-logo">
-                  <a href="index.html">
-                    <img src="./assets/images/logo.jpeg" alt="logo" />
-                  </a>
-                </div>
-                <nav class="menus">
-                  <ul>
-                    <li>
-                      <a class="active" href="about.html"> About </a>
-                    </li>
-                    <li><a href="#"> Program</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Sponsor</a></li>
-                    <li><a href="#">News</a></li>
-                    <li class="nav-button">
-                      <a href="">CC Campaign</a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </header>
+            </nav>
+          </div>
+        </div>
+      </header>
       <div class="sec-1">
         <section>
           <h1 class="intro-1">Collision Conf 2022</h1>
@@ -150,7 +149,7 @@
           <div class="masterclass-list">
             <div class="masterclass-card">
               <div class="masterclass-card-image">
-                <img src="/assets/images/aws.png" alt="aws" />
+                <img src="./assets/images/aws.png" alt="aws" />
               </div>
               <div class="masterclass-card-content">
                 <h3>
@@ -165,19 +164,19 @@
                   <b>Location:</b> AWS Startup Loft Theater
                 </div>
                 <div class="single-description">
-                  <p
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nihil, illo quas. Accusantium impedit necessitatibus illo
                     distinctio soluta. Dicta pariatur excepturi, aspernatur
                     error ducimus, provident necessitatibus expedita corrupti
-                    aut itaque earum!</p
-                  >
+                    aut itaque earum!
+                  </p>
                 </div>
               </div>
             </div>
             <div class="masterclass-card">
               <div class="masterclass-card-image">
-                <img src="/assets/images/investhk.png" alt="aws" />
+                <img src="./assets/images/investhk.png" alt="investhk" />
               </div>
               <div class="masterclass-card-content">
                 <h3>
@@ -192,20 +191,20 @@
                   <b>Location:</b> AWS Startup Loft Theater
                 </div>
                 <div class="single-description">
-                  <p
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nihil, illo quas. Accusantium impedit necessitatibus illo
                     distinctio soluta. Dicta pariatur excepturi, aspernatur
                     error ducimus, provident necessitatibus expedita corrupti
-                    aut itaque earum!</p
-                  >
+                    aut itaque earum!
+                  </p>
                 </div>
               </div>
             </div>
             <div class="masterclass-card">
               <div class="masterclass-card-image">
                 <img
-                  src="/assets/images/start-portugal.png"
+                  src="./assets/images/start-portugal.png"
                   alt="start-portugal"
                 />
               </div>
@@ -222,19 +221,19 @@
                   <b>Location:</b> AWS Startup Loft Theater
                 </div>
                 <div class="single-description">
-                  <p
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nihil, illo quas. Accusantium impedit necessitatibus illo
                     distinctio soluta. Dicta pariatur excepturi, aspernatur
                     error ducimus, provident necessitatibus expedita corrupti
-                    aut itaque earum!</p
-                  >
+                    aut itaque earum!
+                  </p>
                 </div>
               </div>
             </div>
             <div class="masterclass-card">
               <div class="masterclass-card-image">
-                <img src="/assets/images/capgemini.png" alt="capgemini" />
+                <img src="./assets/images/capgemini.png" alt="capgemini" />
               </div>
               <div class="masterclass-card-content">
                 <h3>
@@ -249,24 +248,54 @@
                   <b>Location:</b> AWS Startup Loft Theater
                 </div>
                 <div class="single-description">
-                  <p
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nihil, illo quas. Accusantium impedit necessitatibus illo
                     distinctio soluta. Dicta pariatur excepturi, aspernatur
                     error ducimus, provident necessitatibus expedita corrupti
-                    aut itaque earum!</p
-                  >
+                    aut itaque earum!
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
       </div>
-      <footer class="about-footer">
+
+      <div class="sec-4">
         <section>
-          <h1>.</h1>
+          <h1>Visit Pass Global Summits</h1>
+          <div class="underline"></div>
+          <div class="speaker-list"></div>
+          <div class="past_description">
+            <p>
+              Take a look at the recent global summits held in Buenos Aires,
+              Argentina and Warsaw, Poland.
+            </p>
+          </div>
+          <div class="past_links">
+            <a
+              href="https://wiki.creativecommons.org/wiki/Global_Summit_2013">
+              <img
+                src="./assets/images/about_2013.png"
+                alt="image of global summit 2013"
+                class="hasHover"/>
+            </a>
+            <a
+              href="https://wiki.creativecommons.org/wiki/Global_Summit_2011">
+              <img
+                src="./assets/images/about_2011.png"
+                alt="image of global summit 2011"
+                class="hasHover"/>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <footer class="about-footer">
+        <div class="footer-wrap">
           <div class="col-1">
-            <img src="/assets/images/logo.jpeg" alt="" />
+            <img src="./assets/images/logo.jpeg" alt="logo" />
           </div>
 
           <div class="col-2">
@@ -276,7 +305,7 @@
               Necessitatibus, distinctio?
             </p>
           </div>
-        </section>
+        </div>
       </footer>
     </div>
   </body>

@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sireclifford.github.io/HTML-JS-Capstone/)
 
 
 ## Getting Started
@@ -30,4 +30,4 @@ To get a local copy up and running follow these simple example steps.
 
 ## Acknowledgments
 
-- Gratitude to `Creative Commons`
+- A thank you to [Cindy Shin](https://www.behance.net/adagio07) for her design which inspired my work.

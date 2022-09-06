@@ -17,7 +17,7 @@ const speakersData = [
     id: 3,
     name: 'Alicia Garza',
     profession: 'Principal, Black Futures Lab',
-    image: '/assets/images/speaker_03.png',
+    image: './assets/images/speaker_03.png',
     bio: 'Alicia is an author, political strategist and organizer. Alicia founded (and is principal of) Black Futures Lab to make Black communities powerful in politics. She is the co-creator of #BlackLivesMatter and the Black Lives Matter Global Network. ',
   },
   {

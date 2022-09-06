@@ -542,7 +542,7 @@ h3 {
 
 .sec-1 {
   background:
-    url("/assets/images/about_bg_01.png") center center no-repeat
+    url("./assets/images/about_bg_01.png") center center no-repeat
     rgb(247, 247, 248);
 }
 
